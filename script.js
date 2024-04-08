@@ -29,7 +29,7 @@ document.querySelectorAll("button").forEach((button) => {
     button.id === "multiplication"
   ) {
     button.addEventListener("click", () => {
-      calculation.textContent = button.textContent;
+      calculation.textContent += button.textContent;
     });
   }
 });
